@@ -1,6 +1,6 @@
 [package]
 name = "imagepig"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Pavel Mises <pavel@double.plus>"]
 description = "Package to use Image Pig, the API for AI images"

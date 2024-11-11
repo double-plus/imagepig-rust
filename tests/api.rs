@@ -56,7 +56,7 @@ async fn test_api() {
         .save("output/replace.jpeg")
         .await;
     imagepig
-        .outpaint(jane, "dress", None, None, None, Some(500), None, None)
+        .outpaint(jane, "dress", None, None, Some(500), None, None, None)
         .await
         .unwrap()
         .save("output/outpaint.jpeg")

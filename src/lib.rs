@@ -337,11 +337,11 @@ impl ImagePig {
         &self,
         image: T,
         positive_prompt: &str,
-        negative_prompt: Option<&str>,
         top: Option<u32>,
         right: Option<u32>,
         bottom: Option<u32>,
         left: Option<u32>,
+        negative_prompt: Option<&str>,
         extra_params: Option<serde_json::Map<String, Value>>,
     ) -> Result<APIResponse, ImagePigError> {
         let mut params = extra_params.unwrap_or_default();
